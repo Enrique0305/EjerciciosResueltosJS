@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <section class="header__info">
+          <h1 class="header__info-title">Promedio</h1>
+          <p class="header__info-desc">Taller del curso práctico de JavaScript</p>
+        </section>
+      </header>
+    
+      <section class="main">
+        <h2 id="main-title">CÁLCULOS ESTADÍSTICOS</h2>
+        <form action="" class="main__desc-form">
+          <label for="inputValues">Ingrese los valores separados por comas </label>
+          <div class="container">
+            <input class="input" id="inputValues" type="text" placeholder="Example: 15,24,2,17,50">
+          </div>
+          <button type="button" id="calcular" onclick="onClickButtonPromedio()">Calcular</button>
+        </form>
+        <span class="result" id="main__result">^_^</span>
+      </section>
+      <script src="./index.js"></script>
+</body>
+</html>
